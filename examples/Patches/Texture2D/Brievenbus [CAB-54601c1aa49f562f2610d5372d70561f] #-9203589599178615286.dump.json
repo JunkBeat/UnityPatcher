@@ -1,0 +1,37 @@
+{
+  "m_Name": "Brievenbus",
+  "m_ForcedFallbackFormat": 4,
+  "m_DownscaleFallback": false,
+  "m_IsAlphaChannelOptional": false,
+  "m_Width": 811,
+  "m_Height": 811,
+  "m_CompleteImageSize": 2630884,
+  "m_MipsStripped": 0,
+  "m_TextureFormat": 4,
+  "m_MipCount": 1,
+  "m_IsReadable": false,
+  "m_IsPreProcessed": false,
+  "m_IgnoreMipmapLimit": false,
+  "m_MipmapLimitGroupName": "",
+  "m_StreamingMipmaps": false,
+  "m_StreamingMipmapsPriority": 0,
+  "m_ImageCount": 1,
+  "m_TextureDimension": 2,
+  "m_TextureSettings": {
+    "m_FilterMode": 1,
+    "m_Aniso": 1,
+    "m_MipBias": 0.0,
+    "m_WrapU": 1,
+    "m_WrapV": 1,
+    "m_WrapW": 0
+  },
+  "m_LightmapFormat": 6,
+  "m_ColorSpace": 1,
+  "m_PlatformBlob": [],
+  "image data": "BINARY DATA: eJwDAAAAAAE=",
+  "m_StreamData": {
+    "offset": 0,
+    "size": 2630884,
+    "path": "archive:/CAB-54601c1aa49f562f2610d5372d70561f/CAB-54601c1aa49f562f2610d5372d70561f.resS"
+  }
+}

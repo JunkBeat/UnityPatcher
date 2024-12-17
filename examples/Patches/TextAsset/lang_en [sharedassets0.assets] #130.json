@@ -1,0 +1,766 @@
+{
+  "menu": [
+    "Resume Game",
+    "Options",
+    "Pets",
+    "Book of Baby Names",
+    "Quit Game",
+    "Don't Quit",
+    "Save and Quit",
+    "Just Quit",
+    "Volume",
+    "Graphics",
+    "Controls",
+    "Sound Test",
+    "All Recordings",
+    "Room Impulse",
+    "Extra Stuff..."
+  ],
+  "tips": [
+    "Go Back",
+    "Resume",
+    "Finish",
+    "Select",
+    "Select File",
+    "Select Pet",
+    "Drop",
+    "Advance Text",
+    "Configure",
+    "Apply"
+  ],
+  "rec": [
+    "GEN.",
+    "Gen.",
+    "Demo Rot.",
+    "ON",
+    "OFF",
+    "Play",
+    "Name:",
+    "Gen:"
+  ],
+  "control": [
+    "UP",
+    "DOWN",
+    "LEFT",
+    "RIGHT",
+    "ACTION",
+    "BACK",
+    "PAUSE"
+  ],
+  "graverobber_menu": [
+    "CONTINUE",
+    "RECORD",
+    "QUIT",
+    "MOVE",
+    "DIG",
+    "SKIP",
+    "BACK"
+  ],
+  "graverobber_states": [
+    "Player %s is waiting.",
+    "Player %s is thinking.",
+    "Player %s has moved <c=1>%s spaces</c> to the <c=1>%s</c>.",
+    "Player %s has moved <c=1>%s spaces %s</c>.",
+    "Player %s dug <c=1>%s</c>.",
+    "Player %s reported that nothing was found there.",
+    "There was something in the way.",
+    "Something was there! But what?",
+    "Place your windmill.",
+    "Place your first grave.",
+    "Place your second grave.",
+    "Place your third grave.",
+    "What just happened?",
+    "Move up, down, left, or right.",
+    "Dig up, down, left, or right."
+  ],
+  "graverobber_directions": [
+    "up",
+    "down",
+    "left",
+    "right"
+  ],
+  "title": [
+    "Press start!",
+    "Reading memory card...",
+    "Empty Game",
+    "Corrupt File",
+    "Continue Game",
+    "Erase It",
+    "PANICSV    possible corruption",
+    "Strange Situation"
+  ],
+  "input": [
+    "Name file: ",
+    "Ask: ",
+    "Your name: ",
+    "?"
+  ],
+  "pause": [
+    "Demo Recording",
+    "Recording Playback",
+    "We hope you are enjoying the game.",
+    "Have you found anything weird lately?\n\nThere is much to find in this place.",
+    "Take them home!",
+    "You're in the other place too!",
+    "The pets really seem to like you. Thanks for playing Petscop.",
+    "I'll come out in a minute.\nKeep playing.",
+    "The ghost room is a ship in a bottle.",
+    "Everything is a trick.",
+    "There are no changes, only replacements.",
+    "There is so much to discover in the world of Petscop.",
+    "Your butt leaves a cavity in the chair.",
+    "Now:"
+  ],
+  "sound": [
+    "Garalina",
+    "Petscop",
+    "The Gift Plane",
+    "Even Care (Level 1)",
+    "Work Zone (Level 2)",
+    "????",
+    "????",
+    "Bathroom Tomb",
+    "Credits",
+    "Birthday",
+    "OOC",
+    "????",
+    "Driving",
+    "School",
+    "Girl World",
+    "Counselor",
+    "Explore 1",
+    "Explore 2",
+    "Bottom",
+    "Go Back",
+    "Pause 1",
+    "Pause 2",
+    "Pause 3",
+    "Next Option 1",
+    "Next Option 2",
+    "Choose Option",
+    "Next Pet",
+    "Choose Pet",
+    "Quit",
+    "Press Start",
+    "Next File",
+    "Choose File",
+    "Next Letter",
+    "Gotcha",
+    "Amber Cry",
+    "Randice Cry",
+    "Pen Cry",
+    "Toneth Cry",
+    "Roneth Cry",
+    "Wavey Cry",
+    "Amber Jump",
+    "Amber Thump",
+    "Randice Bonk",
+    "Randice Pop",
+    "Randice Drop",
+    "Randice Thirsty",
+    "Randice Very Thirsty",
+    "Randice Dig",
+    "Randice Dingaling",
+    "Bucket Push",
+    "Wavey Rain",
+    "Wavey Appear",
+    "Wavey Disappear",
+    "Beep",
+    "Treadmill",
+    "Action Appear",
+    "Piece 1",
+    "Piece 2",
+    "Piece 3",
+    "Text Appear 1",
+    "Text Next",
+    "Text Done",
+    "Start",
+    "Car Pass",
+    "Care A Cry",
+    "Care B Cry",
+    "Care NLM Cry",
+    "Vanish",
+    "Windmill",
+    "Good Pluck",
+    "Bad Pluck",
+    "Child Library Error",
+    "Choose Child",
+    "Error",
+    "Leaving",
+    "Wheel Turn",
+    "Pick Up Key",
+    "Open Gift",
+    "1997 Calendar",
+    "2000 Calendar",
+    "1997 Calendar Again",
+    "Your Calendar",
+    "Splash",
+    "Disable Alarm",
+    "Dial",
+    "Focus",
+    "Unfocus",
+    "Special Text",
+    "Curse",
+    "Broken AC",
+    "House Alarm",
+    "Phone Ring",
+    "Next Month",
+    "Text Appear 2",
+    "Calendar Flip",
+    "Zoom",
+    "Zoom (Here)",
+    "Whoosh",
+    "Paint",
+    "Use Lock",
+    "Thump",
+    "Padlock",
+    "Draw Mode",
+    "Draw",
+    "Guided",
+    "Guided Movement",
+    "Driving Movement",
+    "Clock Tick",
+    "Head Button",
+    "P2 to Talk",
+    "Marvin Message",
+    "Belle Message",
+    "Care Message",
+    "Game Next Square",
+    "Game Piece Move",
+    "Game Next Option",
+    "Victory",
+    "Failure",
+    "Game Place Piece",
+    "Game Choose Option",
+    "Game Gift Find",
+    "Game Wrrarv",
+    "Game Blip-blip",
+    "Boss",
+    "Tool Activate",
+    "Tool Deactivate",
+    "Gift Push",
+    "Needles Appear",
+    "Needles Fanfare",
+    "Alarm",
+    "Click",
+    "Secret",
+    "Care Says \"Uh-oh\"",
+    "Care Says \"Bye-bye\""
+  ],
+  "credits": [
+    "Adam, story teller",
+    "Amber, angel",
+    "April, harper",
+    "Belle, smart",
+    "Benjamin, catcher",
+    "Carrie, dizzy",
+    "Charlie, musician",
+    "Daisy, many",
+    "David, rich",
+    "Doug, cook",
+    "Elly, pale",
+    "Emily, technician",
+    "Fatima, sitter",
+    "Henry, bouncy",
+    "Holland, lawn mower",
+    "Jack, dog",
+    "James, delicate",
+    "Jessica, worker",
+    "Joel, athlete",
+    "Kate, goose",
+    "Kyle, typist",
+    "Larry, tool maker",
+    "Laura, climber",
+    "Lucas, counselor",
+    "Mackenzie, speedy",
+    "Meghan, shy",
+    "Melinda, baker",
+    "Mike, painter",
+    "Nathan, guest",
+    "Nick, golfer",
+    "Peter, generous",
+    "Phil, nosy",
+    "Ramona, nuisance",
+    "Rebecca, puppeteer",
+    "Robbie, reward",
+    "Ryan, drummer",
+    "Sally, lister",
+    "Sarah, listener",
+    "Sean, lucky",
+    "Shelby, neighbor",
+    "Theo, organized",
+    "Tony, dummy",
+    "Trevor, hungry",
+    "Welles, carnivore",
+    "Will, pilot"
+  ],
+  "credits_thanks": [
+    "Thanks for testing!"
+  ],
+  "credits_msg": [
+    "And now a message from <c=2>Mrs. Mark</c>,  who is working very hard as we speak.",
+    "<c=2>Hi Michael !  Consider this your BIRTHDAY card ! (sorry I can't put money in it...)</c>",
+    "<c=2>When I heard how many kids were coming to your party I was impressed .</c>",
+    "<c=2>Thank your big brother for letting you and your friends play games all day and making you so popular .</c>",
+    "<c=2>Also thank your other Auntie for making this all possible . If you can see her, I mean ... not everyone can ...</c>",
+    "<c=2>But anyway ....HAPPY 7TH ! I'm so so so sorry I couldn't be here . I hope my gift makes up for it ... it's the one in the black box ...</c>",
+    "<c=2>(CARRIE helped pick it out , thank her !!)</c>",
+    "<c=2>Opening gifts is so fun ....a lot of little mysteries , and all are solved ... so \"cathartic\"</c>",
+    "<c=2>Anyway , I sure hope you have fun !! See you later !</c>",
+    "<c=2>Love you ,</c>",
+    "<c=2>Auntie Anna</c>",
+    "<c=2>P.S. Whatever you do ,  please don't shake the box.</c>"
+  ],
+  "amber": [
+    "Amber is a young ball.",
+    "She's afraid to leave home. If her home is good, this is not a problem.",
+    "She is very heavy, and that makes her life a little harder, as well as yours.",
+    "What's the safest place you can put her in? You should start thinking about that."
+  ],
+  "randice": [
+    "Randice is a flower.",
+    "He does need water, but not as much as he thinks.",
+    "You shouldn't worry.",
+    "If you are considering Randice, you should adopt Wavey as well.",
+    "Wavey knows how to trick Randice."
+  ],
+  "pen": [
+    "Pen is an aspiring mathematician.",
+    "She's entirely deaf. She doesn't even know what sound is, let alone music.",
+    "I don't know what she's doing here."
+  ],
+  "toneth": [
+    "(Enter a description here)",
+    "---",
+    "- A bird. I think I forgot what birds look like.",
+    "- \"Funny stupid blob monster\" says Mike. That's what it is.",
+    "- Painter. Painting puzzle.",
+    "- Catch Randice first(?)",
+    "- Has broken leg for some reason. I already hung him on a wall, too late to take it back. It makes me think about the dog actually. Because when the car hit him I thought \"at least it will be over soon.\" He survived it, and I was the only one who still wanted to put him down.A dog is an innocent",
+    "When that dog wags its tail and it it appears happy, it's not real.",
+    "I guess that's toneth then. toneth toneth toneth toneth toneth toneth toneth toneth toneth toneth toneth toneth toneth toneth toneth toneth toneth. the end. it's yucky outside."
+  ],
+  "roneth": [
+    "Roneth is Toneth's baby\nhalf-brother.",
+    "Because he's younger, he gets to learn from all of Toneth's mistakes.",
+    "That's why he always looks both ways.",
+    "He doesn't get into trouble. You won't have to watch him all the time. He's good."
+  ],
+  "wavey": [
+    "Wavey is a cloud.",
+    "He is afraid of everything. He is especially afraid of freezing.",
+    "According to him, he is never the same person for more than a few seconds."
+  ],
+  "care_a": [
+    "When the emergency began, you were all looking for Care A.",
+    "I told you all, we would never find Care A. When Care A goes missing, she goes missing forever.",
+    "My brother didn't want us to find him, because he knew we were all looking for Michael A.",
+    "I'm back. This is my present for you.",
+    "I started it in 1996, for Marvin.",
+    "If you think they're worth any effort, see if you can save Care B, or Care NLM. Care B is in the school, of course.",
+    "Fuck you all, and fuck me as well. Merry Christmas. Check your bathroom now.",
+    "- Rainer"
+  ],
+  "care_b": [
+    "Care B is scared and pounding on the door.",
+    "I open it. It's so dark that I can't see her.",
+    "So I pull her out, and the light hits her face.",
+    "And they won't even give me a picture of her now.",
+    "They're all scattered in graves.",
+    "And I'm a piece of shit.\nHere I go.<shovel>"
+  ],
+  "care_nlm": [
+    "Care NLM escaped from the school's basement and wandered the Newmaker Plane for days.",
+    "To catch her, you had to lie, but it may not be a lie forever.",
+    "You're the Newmaker. You can turn Care NLM into Care A, and close the loop."
+  ],
+  "giftplane": [
+    "The Gift Plane has closed indefinitely, and all personnel have left.",
+    "If you are unaware, The Gift Plane provided homes to over a hundred young Pets.",
+    "Unfortunately, we have failed to remove all of the Pets from their homes.",
+    "<c=0>48</c> Pets remain here, at the time of writing.",
+    "We would strongly encourage you to visit our <c=0>8</c> homes and find some friends to take with you.",
+    "Every Pet is uniquely valuable. You should have no problem finding somebody that you love.",
+    "- The Gift Plane staff"
+  ],
+  "evcare_banner": [
+    "Even Care"
+  ],
+  "evcare1_0": [
+    "It's a picture of two friends, <c=0>Toneth</c> and <c=1>Randice</c>.",
+    "Are they not cute? Give them a chance!"
+  ],
+  "evcare1_1": [
+    "This door is locked.",
+    "Or not, but you don't know how to open doors."
+  ],
+  "evcare1_1_g6": [
+    "This door is locked."
+  ],
+  "evcare2_0": [
+    "When you're choosing a pet, find somebody that you like.",
+    "You don't have to love them right away."
+  ],
+  "evcare_2_0_odd": [
+    "When you're choosing a pet, find one that you like.",
+    "You don't have to love them right away."
+  ],
+  "evcare2_1": [
+    "Don't be discouraged if they run from you! They really do want a home.",
+    "They're afraid. Show them that there's nothing to be afraid of."
+  ],
+  "evcare3": [
+    "It's a trophy, \"awarded to our <c=2>Amber</c> for being a real champ yesterday and today.\"",
+    "\"She hasn't left her cage once!\""
+  ],
+  "evcare_msg": [
+    "Congratulations ... you caught every pet in Even Care (aside from Toneth, who isn't here yet).",
+    "You have seen everything in the game, so far, but there will obviously be more.",
+    "It's a growing organism.",
+    "Your controller inputs will be useful, but your feedback will be even more useful.",
+    "Please leave the Playstation on when you leave. You can stand up now."
+  ],
+  "office": [
+    "\"<c=3>Care</c> left the room.\""
+  ],
+  "note_care": [
+    "A",
+    "B",
+    "NLM"
+  ],
+  "roadmap": [
+    "Road Map"
+  ],
+  "caskets": [
+    "Caskets",
+    "When these are done, they will be great.",
+    "Anybody who sees them is sure to become part of the family."
+  ],
+  "casket1": [
+    "This one is called \"Casket 1\".",
+    "You showed <c=3>Care</c> her red, blurry reflection in a vase.",
+    "You said, <c=1>\"Do you see that? Look at how ugly you are now.\"</c>",
+    "<c=3>Care</c> squinted her eyes.",
+    "The reflection wasn't clear at all, but as you began to describe her grisly deformities, she began to \"see\" them.",
+    "<c=1>\"Nobody wants to see you like this,\"</c> you said.",
+    "But she soon escaped, and bravely returned home.",
+    "In her bathroom mirror, she saw a clear picture."
+  ],
+  "casket2": [
+    "This one is called \"Casket 2\".",
+    "As I painted, I watched <c=3>Care</c> dance around the house.",
+    "She liked to spin. She became a blur.",
+    "But in that blur, somehow, as she spun around...",
+    "From 45 degrees, to 90, to 180, to 360, to 720, 1080, 1440, 1800, 2160, winding, tightening, tightening",
+    "I was stunned by pure horror and disgust."
+  ],
+  "casket3": [
+    "This one is called \"Casket 3\".",
+    "After kicking you out of the house, your wife started painting the walls black, to cover the stencils.",
+    "I helped. She made it feel urgent.",
+    "That Saturday, busy with work, she pinned a note.",
+    "It contained a list of objects."
+  ],
+  "casket4": [
+    "This one is called \"Casket 4\".",
+    "Five words, written on a chalkboard, in the dirty building that you inhabit."
+  ],
+  "places": [
+    "Places"
+  ],
+  "graves": [
+    "<c=6>Michael Hammond</c>\n 1988 - 1995\n Mike was a gift.",
+    "<c=6>   Lina Leskowitz</c>\n   1968 - 1977\nThey didn`t see her."
+  ],
+  "quitter": [
+    "QUITTER'S ROOM"
+  ],
+  "library_mike": [
+    "Mike is not inside right now. He is dead.",
+    "You may visit his room."
+  ],
+  "library_care": [
+    "<c=3>Care</c> is missing.",
+    "You may visit her room."
+  ],
+  "library_lina": [
+    "You found her.",
+    "You may visit her room."
+  ],
+  "library_drop_people": [
+    "Child library accepts <c=5>people</c>"
+  ],
+  "library_drop_care": [
+    "You've decided to leave <c=3>%s</c>.",
+    "If you change your mind within 6 months, you can take <c=3>%s</c> back.",
+    "What month is it, anyway? What year is it?"
+  ],
+  "library_room_care": [
+    "Your wife says, <c=2>\"<c=3>Care</c> isn't growing eyebrows.\"</c>",
+    "You say, <c=1>\"That's a puzzle.\"</c>",
+    "You're secretly very excited to hear this news.",
+    "You're in the bathtub thinking about her.",
+    "I have a guess at which child you'll pick next.",
+    "When you find her room, the passage to my right will lead to her.",
+    "She'll appear from the darkness, limping, and I'll shoot her in the head.",
+    "<c=4>Tiara</c> says young people can be psychologically damaged <c=4>\"beyond rebirthing\"</c>.",
+    "A young person walks into your school building.",
+    "They walk in with you. You're holding their hands.",
+    "They come out crying into their hands, because nobody will love them, not ever again.",
+    "<c=3>\"Nobody loves me!\"</c>",
+    "They wander the Newmaker Plane."
+  ],
+  "library_room_lina": [
+    "You must have guessed, but I was looking through your things.",
+    "I found that picture of you from 1977, standing in front of an old windmill with your friend.",
+    "You went there, and it was a bad idea. Your friend and the windmill both disappeared into thin air.",
+    "Her sister was holding the camera. She took another picture minutes later: just you, no windmill, and no friend.",
+    "You married her sister, and years later, your friend was reborn as your daughter.",
+    "Your wife won't admit this is true, but I know it, because I found the evidence.",
+    "Your friend never returned with you, and the windmill was gone. I went to see it myself. Where is it? What did you do?",
+    "- Rainer, Newmaker"
+  ],
+  "house_sign": [
+    "This is a frozen house, captured three times, exactly as it was."
+  ],
+  "house_key": [
+    "The key still works.",
+    "It still works.",
+    "... Though you've unlocked the door, you can't open it."
+  ],
+  "house_main": [
+    "<c=2>\"Where have you been? Why were you gone for such a long time?\"</c>",
+    "<c=2>\"Is this a present? Who is it for?\"</c>",
+    "Can I use the bathroom?",
+    "<c=2>\"Of course.\"</c>"
+  ],
+  "calendars": [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "note_anna": [
+    "My husband may come here after 6:00 pm. Please stay overnight if you can.\n\nThank you so so so much. "
+  ],
+  "house_room_care": [
+    "<c=3>Care</c> left the room."
+  ],
+  "house_room_parents": [
+    "This windmill vanished off the face of the earth.",
+    "Here's a similar puzzle. For you, Marvin:",
+    "There are two pictures of a door.",
+    "In the first picture, the door is closed.",
+    "In the second picture, taken later, the door is open.",
+    "Nobody opened the door.",
+    "The door did not open itself.",
+    "The door, in fact, did not open at all.",
+    "What happened?"
+  ],
+  "needles_msg": [
+    "<c=0>Play <c=1>Needles <c=2>Piano <c=7>Now</c></c></c></c>",
+    "<c=1>Play <c=2>Needles <c=7>Piano <c=0>Now</c></c></c></c>",
+    "<c=2>Play <c=7>Needles <c=0>Piano <c=1>Now</c></c></c></c>",
+    "<c=7>Play <c=0>Needles <c=1>Piano <c=2>Now</c></c></c></c>"
+  ],
+  "marvin_msg_0": [
+    "Hi Marvin. Rainer here.",
+    "You have to be careful this time.",
+    "If you start running out there without a sense of purpose, you'll get lost.",
+    "I'm writing this on July 10th, 1997, and Care is still missing.",
+    "We are searching. Last weekend, we almost got lost ourselves.",
+    "Your search is harder. Beyond here, there are no landmarks.",
+    "But this model of a brick building, though crude, should still be familiar to you."
+  ],
+  "marvin_msg_1": [
+    "Where is this building?"
+  ],
+  "marvin_msg_2": [
+    "From here, I want you to find a grave.",
+    "You know the grave I'm talking about. It's definitely out here somewhere.",
+    "It's unmarked, of course. That's the trouble. You're the only person who can find it."
+  ],
+  "marvin_msg_3": [
+    "I increased your speed, so you can search faster."
+  ],
+  "belle_msg_0": [
+    "Hi <c=4>Belle</c>.",
+    "You're free!<tada>",
+    "I left these messages for you to look at, in case you were ever rescued.",
+    "So, while you walk around, looking for something to do, I'll come up periodically.",
+    "When the messages run out, I'll be out of your hair forever and ever."
+  ],
+  "belle_msg_1": [
+    "You've apparently been running Petscop nonstop for <c=0>%s</c> seconds, or <c=2>%s</c> hours.",
+    "That looks dubious to me. What do you think?"
+  ],
+  "belle_msg_2": [
+    "Are you still sitting on a chair?",
+    "Can you still look around the room? Is there still a room?"
+  ],
+  "belle_msg_3": [
+    "This is the Child Library.",
+    "You're not family, so I didn't add your traits to the face system.",
+    "That means I didn't add your eyes, or your eyebrows, or your nose."
+  ],
+  "belle_msg_4": [
+    "Don't get lost."
+  ],
+  "belle_msg_5": [
+    "Happy birthday <c=4>Belle</c>!",
+    "I'm"
+  ],
+  "belle_msg_6": [
+    "I'm calling you <c=4>Belle</c> because that's who you are.",
+    "You might be confused as to what happened.",
+    "I was overeager before, and started calling you <c=4>Tiara</c> prematurely.",
+    "I created a space in the menu for you, still unused now.",
+    "Then I put you inside the machine, and played the second movement of Stravinsky's Septet on the Needles.",
+    "I played it wrong, but that would have been okay.",
+    "If you hadn't given up halfway, you would be <c=4>Tiara</c>. This is not what happened, and now I'm gone."
+  ],
+  "care_msg_0": [
+    "Hi there.",
+    "Wake up. You're free!",
+    "There you go. Thank you.",
+    "I want you to retrace your steps.",
+    "The family, as usual, wants to learn what happened to you between November 10th and 12th of 1997.",
+    "On November 10th of 1997, you ran away from your daddy's school building, and on the 12th, you arrived at your house.",
+    "The question is: where were you on November 11th? And what were you doing there?",
+    "I hope to guide you to that location, with a spell, which I will begin now:",
+    "<spell><c=3>You are a girl named Carrie Mark, and you were born on November 12th, 1992.</c>",
+    "<spell><c=3>You have a mommy named Anna, a daddy named Marvin, an auntie named Jill, an uncle named Thomas, a cousin named Daniel, ......</c>",
+    "I know what you must be thinking. Have these statements always been true? Or have I cursed you?",
+    "Is there such a thing? A curse that changes your past?",
+    "Stop thinking.",
+    "<spell><c=3>You were kidnapped, and spent 5 months studying in an abandoned elementary school.</c>",
+    "<spell><c=3>You ran away, crying, ashamed, covering your face.</c>",
+    "<spell><c=3>You were blind.</c> At some point, <spell><c=3>your movements stopped making sense.</c>",
+    "Bumping into walls and doors. Dodging invisible obstacles.",
+    "Find the moment.",
+    "When were you led astray on the road?"
+  ],
+  "care_msg_1": [
+    "A girl went missing around here.",
+    "Story goes, your daddy used to sit on a bench with a birthday cake, trying to lure her home.",
+    "Instead of \"missing girl\" signs, he put up \"birthday girl\" signs, promising cake to the birthday girl.",
+    "Of course, the birthday girl never came home, to his disappointment.",
+    "When I learned about this absurd story, I spent a lot of time digging.",
+    "Eventually, I found out what really happened to that girl.",
+    "Want to know? Ask."
+  ],
+  "party_0": [
+    "<c=2>\"You made it. Happy birthday!\"</c>",
+    "<c=2>\"Why are you covering your face?\"</c>",
+    "<c=2>\"... Oh.\"</c>"
+  ],
+  "party_1": [
+    "<c=2>\"Of course I recognize you.\"</c>",
+    "<c=2>\"Those eyes. That nose. That's still you.\"</c>"
+  ],
+  "party_2": [
+    "<c=2>\"Go ahead and have a slice!\"</c>",
+    "<c=2>\"Oh, don't worry about those.\"</c>"
+  ],
+  "party_3": [
+    "<c=2>\"I sure hope you've realized by now.\"</c>",
+    "<c=2>\"It doesn't matter how long you've been gone. It doesn't matter how much you've changed.\"</c>",
+    "<c=2>\"You aren't lost. Stop wandering and come home.\"</c>"
+  ],
+  "party_4": [
+    "<c=2>\"Care! Are you okay?\"</c>",
+    "<c=2>\"You ran straight into the door! Did you think it was open? ... Aw, poor baby.\"</c>"
+  ],
+  "party_5": [
+    "<sound=2><c=3>\"Where is the disk? Where are the discovery pages?\"</c>",
+    "<sound=0><c=2>\"What are you talking about? What disk? Discovery pages?\"</c>",
+    "<sound=2><c=3>\"... Jill, stop fucking ignoring me. Get in here and show me where that disk is.\"</c>",
+    "<sound=2><c=3>\"Jill.\"</c>",
+    "<sound=0><c=2>\"No, Care, this is Mommy. This is your mommy. Sweetie, I'm right here in front of you. There's no one else here.\"</c>",
+    "<sound=0><c=2>\"What are you looking at? What's over there?\"</c>",
+    "<sound=0><c=2>\"... Care, can't you hear me? Can't you see me waving? Snap out of it. Care! Where are you going?\"</c>"
+  ],
+  "counselor": [
+    "Hi there. Sorry for pulling you out of class.",
+    "I know you've been busy catching up.",
+    "Don't worry, I just want to talk with you.",
+    "Hey, do you want to play a game? You can pick any game you want, and we can play it together."
+  ],
+  "graverobber_0": [
+    "Graverobber is kind of like Battleship.",
+    "Oh, you already know Graverobber? That's good. I don't like explaining things."
+  ],
+  "graverobber_1": [
+    "I called you several times and you didn't come. Do I have the wrong name here?",
+    "Hmm. I notice you named your file \"<c=8>%s</c>\". Is that your name? Please confirm.",
+    "<c=0>%s</c>. Okay.",
+    "Your turn, <c=0>%s</c>."
+  ],
+  "graverobber_2": [
+    "Are you right handed, or left handed?",
+    "You don't know? Really? Well, which hand do you write with?",
+    "That one? That's your left hand. That means you're left handed.",
+    "I'm right handed. I use this hand.",
+    "My right is actually your left. Isn't that confusing?",
+    "Anyway, your turn."
+  ],
+  "graverobber_3": [
+    "Moving five times in a row was a mistake. Now I can't retrace all my steps.",
+    "You should dig often. It helps you win."
+  ],
+  "graverobber_4": [
+    "Kids shouldn't say swear words. Do you know why?",
+    "It just doesn't sound right. It's disturbing.",
+    "You should choose cleaner words, even when you're really angry.",
+    "Your turn."
+  ],
+  "graverobber_5": [
+    "That's a very big boo-boo on your face.",
+    "We're going to help you, together. Everyone is.",
+    "When you reach for your shoes, your shoes will be there.",
+    "When you walk through a doorway, the door will be open.",
+    "Wherever you go, the floor will continue under your feet.",
+    "Every move you make, will be made valid.",
+    "Everything you see will become real.",
+    "Everything you say will become the truth.",
+    "Your turn."
+  ],
+  "graverobber_6": [
+    "You want to quit? Why?",
+    "Oh. I don't blame you.",
+    "Grave robbery is vile. This is an awful game, huh? We can play something else if you want."
+  ],
+  "graverobber_7": [
+    "It's okay. You can go.",
+    "I hope you can find your real house."
+  ],
+  "basement": [
+    "You'll find the machine up ahead.",
+    "This is the only entry or exit. You will pass through this room again as you leave.",
+    "Keep in mind: everything here, your baby will see."
+  ],
+  "basement_machine": [
+    "Spin when ready."
+  ],
+  "egg": [
+    "What? One of the eggs... was in Daniel's game??",
+    "What an unfair trick!",
+    "Have you found every egg in the office?"
+  ],
+  "wm_options": [
+    "Up",
+    "Down",
+    "Turn"
+  ],
+  "demo_bar": [
+    "DEMO"
+  ]
+}
