@@ -41,6 +41,9 @@ At the moment UnityPatcher supports 3 commands (pack, unpack, search). You can f
 - `Patcher pack Patches --outsamedir`
 - `Patcher search "example text" --export`
 
+### **Download**
+[Latest releases](https://github.com/JunkBeat/UnityPatcher/releases)
+
 ### **Support**
 Patcher is a solo project and an attempt to make a convenient modding utility available to everyone. It takes a lot of time to develop, so if you want to support me, you can donate via Paypal using the mail pmwavex@gmail.com. Thank you!
 
