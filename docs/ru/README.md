@@ -56,4 +56,6 @@
 ### **TDoT и обратная связь**
 Присоединяйтесь к [серверу TDoT](https://discord.gg/qEzKUq2SZ4), чтобы обсудить патчер, получать уведомления о новых версиях и участвовать в совместном переводе игр вместе с нами!
 
+<img src="https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fgithub.com%2FJunkBeat%2FUnityPatcher%2Ftree%2Fmain%2Fdocs%2Fru&s=40&c=00ff00&bg=00000000&no=2&ff=electrolize&tb=&ta=" alt="visits">
+
 *Примечание:* TDoT не связан с разработкой данной программы. Это просто команда переводчиков, в которой я состою.
