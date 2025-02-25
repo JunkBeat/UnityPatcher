@@ -45,6 +45,6 @@ At the moment UnityPatcher supports 3 commands (pack, unpack, search). You can f
 [Latest releases](https://github.com/JunkBeat/UnityPatcher/releases)
 
 ### **Support**
-Patcher is a solo project and an attempt to make a convenient modding utility available to everyone. It takes a lot of time to develop, so if you want to support me, you can donate via Paypal using the mail pmwavex@gmail.com. Thank you!
+Patcher is a solo project and an attempt to make a convenient modding utility available to everyone. It takes a lot of time to develop, so if you want to support me, you can donate via Paypal - pmwavex@gmail.com. Thank you!
 
-
+<img src="https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fgithub.com%2FJunkBeat%2FUnityPatcher&s=40&c=00ff00&bg=00000000&no=2&ff=electrolize&tb=&ta=" alt="visits">
