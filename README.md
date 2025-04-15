@@ -1,12 +1,18 @@
-# UnityPatcher
-**UnityPatcher**, or simply **Patcher**, is a command-line tool for patching assets in Unity files. It is based on UnityPy.
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/6b6d02b6-a967-40a0-978b-9e7a30b2a643" width="15%" alt="logo">
+    <h1 align="center">UnityPatcher</h2>
+    <p>A command-line tool for patching assets in Unity files. It is based on UnityPy.</p>
+    <a href="https://github.com/JunkBeat/UnityPatcher/releases/latest"><b>✦︎ Download latest release ✦︎</b></a>
+</div>
+
+<br>
 
 ![image](https://github.com/user-attachments/assets/a0dbf7f9-e270-4f0b-93c9-4e4e9f6a9c15)
 
 ### **Features**:
 - Compatible with asset types such as `Texture2D`, `TextAsset`, `AudioClip`, `VideoClip`, `MonoBehaviour`, and more.  
 - Supports extracting `MonoBehaviour` dumps for Unity versions up to ~2021.  
-- Edit bundles directly without the need to unpack CAB files.  
+- Edit bundles directly without the need to unpack CAB-archives.  
 - Repack bundles using the original compression method.  
 - Export assets in **converted**, **raw**, or **JSON dump** formats.  
 - The import process prioritizes the dump first, followed by the associated converted files.  
@@ -17,6 +23,27 @@ Everything is done in just a few clicks, and the commands are very simple. Folde
 ### **Requirement**
 - .NET Framework - for typetree generation and texture compression.
 - ffmpeg, downloaded and added to PATH - for video encoding (not necessary if you don't use this option).
+
+### **Installing**
+To run this Python program, first download or clone the code from the repository using:
+```bash
+git clone https://github.com/JunkBeat/UnityPatcher.git
+```
+
+Then, navigate into the project folder:
+```bash
+cd UnityPatcher
+```
+
+Make sure you have Python installed, and install the required dependencies by running:
+```bash
+pip install -r requirements.txt
+```
+
+Finally, launch the program with:
+```bash
+python Patcher.py
+```
 
 ### **Important** 
 - You should pack only edited files.
@@ -40,11 +67,5 @@ At the moment UnityPatcher supports 3 commands (pack, unpack, search). You can f
 - `Patcher unpack --texture -c Text -i Game_Data -o ExtractedAssets`
 - `Patcher pack Patches --outsamedir`
 - `Patcher search "example text" --export`
-
-### **Download**
-[Latest releases](https://github.com/JunkBeat/UnityPatcher/releases)
-
-### **Support**
-Patcher is a solo project and an attempt to make a convenient modding utility available to everyone. It takes a lot of time to develop, so if you want to support me, you can donate via Paypal - pmwavex@gmail.com. Thank you!
 
 <img src="https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fgithub.com%2FJunkBeat%2FUnityPatcher&s=40&c=00ff00&bg=00000000&no=2&ff=electrolize&tb=&ta=" alt="visits">
