@@ -1,0 +1,325 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BCnEncoder.NET.ImageSharp</name>
+    </assembly>
+    <members>
+        <member name="M:BCnEncoder.ImageSharp.BCnDecoderExtensions.DecodeRawToImageRgba32(BCnEncoder.Decoder.BcDecoder,System.IO.Stream,System.Int32,System.Int32,BCnEncoder.Shared.CompressionFormat)">
+            <summary>
+            Decode a single encoded image from raw bytes.
+            This method will read the expected amount of bytes from the given input stream and decode it.
+            Make sure there is no file header information left in the stream before the encoded data.
+            </summary>
+            <param name="inputStream">The stream containing the encoded image.</param>
+            <param name="pixelWidth">The pixelWidth of the image.</param>
+            <param name="pixelHeight">The pixelHeight of the image.</param>
+            <param name="format">The format the encoded data is in.</param>
+            <returns>The decoded Rgba32 image.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnDecoderExtensions.DecodeRawToImageRgba32(BCnEncoder.Decoder.BcDecoder,System.Byte[],System.Int32,System.Int32,BCnEncoder.Shared.CompressionFormat)">
+            <summary>
+            Decode a single encoded image from raw bytes.
+            </summary>
+            <param name="input">The array containing the encoded data.</param>
+            <param name="pixelWidth">The pixelWidth of the image.</param>
+            <param name="pixelHeight">The pixelHeight of the image.</param>
+            <param name="format">The format the encoded data is in.</param>
+            <returns>The decoded Rgba32 image.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnDecoderExtensions.DecodeToImageRgba32(BCnEncoder.Decoder.BcDecoder,System.IO.Stream)">
+            <summary>
+            Read a Ktx or Dds file from a stream and decode the main image from it.
+            The type of file will be detected automatically.
+            </summary>
+            <param name="inputStream">The stream that contains either ktx or dds file.</param>
+            <returns>The decoded Rgba32 image.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnDecoderExtensions.DecodeAllMipMapsToImageRgba32(BCnEncoder.Decoder.BcDecoder,System.IO.Stream)">
+            <summary>
+            Read a Ktx or Dds file from a stream and decode all available mipmaps from it.
+            The type of file will be detected automatically.
+            </summary>
+            <param name="inputStream">The stream that contains either ktx or dds file.</param>
+            <returns>An array of decoded Rgba32 images.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnDecoderExtensions.DecodeToImageRgba32(BCnEncoder.Decoder.BcDecoder,BCnEncoder.Shared.ImageFiles.KtxFile)">
+            <summary>
+            Decode the main image from a Ktx file.
+            </summary>
+            <param name="file">The loaded Ktx file.</param>
+            <returns>The decoded Rgba32 image.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnDecoderExtensions.DecodeAllMipMapsToImageRgba32(BCnEncoder.Decoder.BcDecoder,BCnEncoder.Shared.ImageFiles.KtxFile)">
+            <summary>
+            Decode all available mipmaps from a Ktx file.
+            </summary>
+            <param name="file">The loaded Ktx file.</param>
+            <returns>An array of decoded Rgba32 images.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnDecoderExtensions.DecodeToImageRgba32(BCnEncoder.Decoder.BcDecoder,BCnEncoder.Shared.ImageFiles.DdsFile)">
+            <summary>
+            Decode the main image from a Dds file.
+            </summary>
+            <param name="file">The loaded Dds file.</param>
+            <returns>The decoded Rgba32 image.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnDecoderExtensions.DecodeAllMipMapsToImageRgba32(BCnEncoder.Decoder.BcDecoder,BCnEncoder.Shared.ImageFiles.DdsFile)">
+            <summary>
+            Decode all available mipmaps from a Dds file.
+            </summary>
+            <param name="file">The loaded Dds file.</param>
+            <returns>An array of decoded Rgba32 images.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnDecoderExtensions.DecodeRawToImageRgba32Async(BCnEncoder.Decoder.BcDecoder,System.IO.Stream,System.Int32,System.Int32,BCnEncoder.Shared.CompressionFormat,System.Threading.CancellationToken)">
+            <summary>
+            Decode a single encoded image from raw bytes.
+            This method will read the expected amount of bytes from the given input stream and decode it.
+            Make sure there is no file header information left in the stream before the encoded data.
+            </summary>
+            <param name="inputStream">The stream containing the encoded data.</param>
+            <param name="pixelWidth">The pixelWidth of the image.</param>
+            <param name="pixelHeight">The pixelHeight of the image.</param>
+            <param name="format">The Format the encoded data is in.</param>
+            <param name="token">The cancellation token for this asynchronous operation.</param>
+            <returns>The decoded Rgba32 image.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnDecoderExtensions.DecodeRawToImageRgba32Async(BCnEncoder.Decoder.BcDecoder,System.Byte[],System.Int32,System.Int32,BCnEncoder.Shared.CompressionFormat,System.Threading.CancellationToken)">
+            <summary>
+            Decode a single encoded image from raw bytes.
+            </summary>
+            <param name="input">The array containing the encoded data.</param>
+            <param name="pixelWidth">The pixelWidth of the image.</param>
+            <param name="pixelHeight">The pixelHeight of the image.</param>
+            <param name="format">The Format the encoded data is in.</param>
+            <param name="token">The cancellation token for this asynchronous operation.</param>
+            <returns>The decoded Rgba32 image.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnDecoderExtensions.DecodeToImageRgba32Async(BCnEncoder.Decoder.BcDecoder,System.IO.Stream,System.Threading.CancellationToken)">
+            <summary>
+            Read a Ktx or Dds file from a stream and decode the main image from it.
+            The type of file will be detected automatically.
+            </summary>
+            <param name="inputStream">The stream that contains either ktx or dds file.</param>
+            <param name="token">The cancellation token for this asynchronous operation.</param>
+            <returns>The decoded Rgba32 image.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnDecoderExtensions.DecodeAllMipMapsToImageRgba32Async(BCnEncoder.Decoder.BcDecoder,System.IO.Stream,System.Threading.CancellationToken)">
+            <summary>
+            Read a Ktx or Dds file from a stream and decode all available mipmaps from it.
+            The type of file will be detected automatically.
+            </summary>
+            <param name="inputStream">The stream that contains either ktx or dds file.</param>
+            <param name="token">The cancellation token for this asynchronous operation.</param>
+            <returns>An array of decoded Rgba32 images.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnDecoderExtensions.DecodeToImageRgba32Async(BCnEncoder.Decoder.BcDecoder,BCnEncoder.Shared.ImageFiles.KtxFile,System.Threading.CancellationToken)">
+            <summary>
+            Decode the main image from a Ktx file.
+            </summary>
+            <param name="file">The loaded Ktx file.</param>
+            <param name="token">The cancellation token for this asynchronous operation.</param>
+            <returns>The decoded Rgba32 image.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnDecoderExtensions.DecodeAllMipMapsToImageRgba32Async(BCnEncoder.Decoder.BcDecoder,BCnEncoder.Shared.ImageFiles.KtxFile,System.Threading.CancellationToken)">
+            <summary>
+            Decode all available mipmaps from a Ktx file.
+            </summary>
+            <param name="file">The loaded Ktx file.</param>
+            <param name="token">The cancellation token for this asynchronous operation.</param>
+            <returns>An array of decoded Rgba32 images.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnDecoderExtensions.DecodeToImageRgba32Async(BCnEncoder.Decoder.BcDecoder,BCnEncoder.Shared.ImageFiles.DdsFile,System.Threading.CancellationToken)">
+            <summary>
+            Decode the main image from a Dds file.
+            </summary>
+            <param name="file">The loaded Dds file.</param>
+            <param name="token">The cancellation token for this asynchronous operation.</param>
+            <returns>The decoded Rgba32 image.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnDecoderExtensions.DecodeAllMipMapsToImageRgba32Async(BCnEncoder.Decoder.BcDecoder,BCnEncoder.Shared.ImageFiles.DdsFile,System.Threading.CancellationToken)">
+            <summary>
+            Decode all available mipmaps from a Dds file.
+            </summary>
+            <param name="file">The loaded Dds file.</param>
+            <param name="token">The cancellation token for this asynchronous operation.</param>
+            <returns>An array of decoded Rgba32 images.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnEncoderExtensions.EncodeToStream(BCnEncoder.Encoder.BcEncoder,SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},System.IO.Stream)">
+            <summary>
+            Encodes all mipmap levels into a ktx or a dds file and writes it to the output stream.
+            </summary>
+            <param name="inputImage">The image to encode.</param>
+            <param name="outputStream">The stream to write the encoded image to.</param>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnEncoderExtensions.EncodeToKtx(BCnEncoder.Encoder.BcEncoder,SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32})">
+            <summary>
+            Encodes all mipmap levels into a Ktx file.
+            </summary>
+            <param name="inputImage">The image to encode.</param>
+            <returns>The Ktx file containing the encoded image.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnEncoderExtensions.EncodeToDds(BCnEncoder.Encoder.BcEncoder,SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32})">
+            <summary>
+            Encodes all mipmap levels into a Dds file.
+            </summary>
+            <param name="inputImage">The image to encode.</param>
+            <returns>The Dds file containing the encoded image.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnEncoderExtensions.EncodeToRawBytes(BCnEncoder.Encoder.BcEncoder,SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32})">
+            <summary>
+            Encodes all mipmap levels into an array of byte buffers. This data does not contain any file headers, just the raw encoded data.
+            </summary>
+            <param name="inputImage">The image to encode.</param>
+            <returns>A list of raw encoded data.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnEncoderExtensions.EncodeToRawBytes(BCnEncoder.Encoder.BcEncoder,SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            Encodes a single mip level of the input image to a byte buffer. This data does not contain any file headers, just the raw encoded data.
+            </summary>
+            <param name="inputImage">The image to encode.</param>
+            <param name="mipLevel">The mipmap to encode.</param>
+            <param name="mipWidth">The width of the mipmap.</param>
+            <param name="mipHeight">The height of the mipmap.</param>
+            <returns>The raw encoded data.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnEncoderExtensions.EncodeCubeMapToStream(BCnEncoder.Encoder.BcEncoder,SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},System.IO.Stream)">
+            <summary>
+            Encodes all cubemap faces and mipmap levels into either a ktx or a dds file and writes it to the output stream.
+            Order is +X, -X, +Y, -Y, +Z, -Z
+            </summary>
+            <param name="right">The right face of the cubemap.</param>
+            <param name="left">The left face of the cubemap.</param>
+            <param name="top">The top face of the cubemap.</param>
+            <param name="down">The bottom face of the cubemap.</param>
+            <param name="back">The back face of the cubemap.</param>
+            <param name="front">The front face of the cubemap.</param>
+            <param name="outputStream">The stream to write the encoded image to.</param>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnEncoderExtensions.EncodeCubeMapToKtx(BCnEncoder.Encoder.BcEncoder,SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32})">
+            <summary>
+            Encodes all cubemap faces and mipmap levels into a Ktx file.
+            Order is +X, -X, +Y, -Y, +Z, -Z. Back maps to positive Z and front to negative Z.
+            </summary>
+            <param name="right">The right face of the cubemap.</param>
+            <param name="left">The left face of the cubemap.</param>
+            <param name="top">The top face of the cubemap.</param>
+            <param name="down">The bottom face of the cubemap.</param>
+            <param name="back">The back face of the cubemap.</param>
+            <param name="front">The front face of the cubemap.</param>
+            <returns>The Ktx file containing the encoded image.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnEncoderExtensions.EncodeCubeMapToDds(BCnEncoder.Encoder.BcEncoder,SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32})">
+            <summary>
+            Encodes all cubemap faces and mipmap levels into a Dds file.
+            Order is +X, -X, +Y, -Y, +Z, -Z. Back maps to positive Z and front to negative Z.
+            </summary>
+            <param name="right">The right face of the cubemap.</param>
+            <param name="left">The left face of the cubemap.</param>
+            <param name="top">The top face of the cubemap.</param>
+            <param name="down">The bottom face of the cubemap.</param>
+            <param name="back">The back face of the cubemap.</param>
+            <param name="front">The front face of the cubemap.</param>
+            <returns>The Dds file containing the encoded image.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnEncoderExtensions.EncodeToStreamAsync(BCnEncoder.Encoder.BcEncoder,SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},System.IO.Stream,System.Threading.CancellationToken)">
+            <summary>
+            Encodes all mipmap levels into a ktx or a dds file and writes it to the output stream asynchronously.
+            </summary>
+            <param name="inputImage">The image to encode.</param>
+            <param name="outputStream">The stream to write the encoded image to.</param>
+            <param name="token">The cancellation token for this operation. Can be default, if the operation is not asynchronous.</param>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnEncoderExtensions.EncodeToKtxAsync(BCnEncoder.Encoder.BcEncoder,SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},System.Threading.CancellationToken)">
+            <summary>
+            Encodes all mipmap levels into a Ktx file asynchronously.
+            </summary>
+            <param name="inputImage">The image to encode.</param>
+            <param name="token">The cancellation token for this operation. Can be default, if the operation is not asynchronous.</param>
+            <returns>The Ktx file containing the encoded image.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnEncoderExtensions.EncodeToDdsAsync(BCnEncoder.Encoder.BcEncoder,SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},System.Threading.CancellationToken)">
+            <summary>
+            Encodes all mipmap levels into a Dds file asynchronously.
+            </summary>
+            <param name="inputImage">The image to encode.</param>
+            <param name="token">The cancellation token for this operation. Can be default, if the operation is not asynchronous.</param>
+            <returns>The Dds file containing the encoded image.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnEncoderExtensions.EncodeToRawBytesAsync(BCnEncoder.Encoder.BcEncoder,SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},System.Threading.CancellationToken)">
+            <summary>
+            Encodes all mipmap levels into an array of byte buffers asynchronously. This data does not contain any file headers, just the raw encoded data.
+            </summary>
+            <param name="inputImage">The image to encode.</param>
+            <param name="token">The cancellation token for this operation. Can be default, if the operation is not asynchronous.</param>
+            <returns>A list of raw encoded data.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnEncoderExtensions.EncodeToRawBytesAsync(BCnEncoder.Encoder.BcEncoder,SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Encodes a single mip level of the input image to a byte buffer asynchronously. This data does not contain any file headers, just the raw encoded data.
+            </summary>
+            <param name="inputImage">The image to encode.</param>
+            <param name="mipLevel">The mipmap to encode.</param>
+            <param name="token">The cancellation token for this operation. Can be default, if the operation is not asynchronous.</param>
+            <returns>The raw encoded data.</returns>
+            <remarks>To get the width and height of the encoded mipLevel, see <see cref="!:CalculateMipMapSize(Image&lt;Rgba32&gt;,int,out int,out int)"/>.</remarks>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnEncoderExtensions.EncodeCubeMapToStreamAsync(BCnEncoder.Encoder.BcEncoder,SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},System.IO.Stream,System.Threading.CancellationToken)">
+            <summary>
+            Encodes all cubemap faces and mipmap levels into either a ktx or a dds file and writes it to the output stream asynchronously.
+            Order is +X, -X, +Y, -Y, +Z, -Z
+            </summary>
+            <param name="right">The right face of the cubemap.</param>
+            <param name="left">The left face of the cubemap.</param>
+            <param name="top">The top face of the cubemap.</param>
+            <param name="down">The bottom face of the cubemap.</param>
+            <param name="back">The back face of the cubemap.</param>
+            <param name="front">The front face of the cubemap.</param>
+            <param name="outputStream">The stream to write the encoded image to.</param>
+            <param name="token">The cancellation token for this operation. Can be default, if the operation is not asynchronous.</param>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnEncoderExtensions.EncodeCubeMapToKtxAsync(BCnEncoder.Encoder.BcEncoder,SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},System.Threading.CancellationToken)">
+            <summary>
+            Encodes all cubemap faces and mipmap levels into a Ktx file asynchronously.
+            Order is +X, -X, +Y, -Y, +Z, -Z. Back maps to positive Z and front to negative Z.
+            </summary>
+            <param name="right">The right face of the cubemap.</param>
+            <param name="left">The left face of the cubemap.</param>
+            <param name="top">The top face of the cubemap.</param>
+            <param name="down">The bottom face of the cubemap.</param>
+            <param name="back">The back face of the cubemap.</param>
+            <param name="front">The front face of the cubemap.</param>
+            <param name="token">The cancellation token for this operation. Can be default, if the operation is not asynchronous.</param>
+            <returns>The Ktx file containing the encoded image.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnEncoderExtensions.EncodeCubeMapToDdsAsync(BCnEncoder.Encoder.BcEncoder,SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},System.Threading.CancellationToken)">
+            <summary>
+            Encodes all cubemap faces and mipmap levels into a Dds file asynchronously.
+            Order is +X, -X, +Y, -Y, +Z, -Z. Back maps to positive Z and front to negative Z.
+            </summary>
+            <param name="right">The right face of the cubemap.</param>
+            <param name="left">The left face of the cubemap.</param>
+            <param name="top">The top face of the cubemap.</param>
+            <param name="down">The bottom face of the cubemap.</param>
+            <param name="back">The back face of the cubemap.</param>
+            <param name="front">The front face of the cubemap.</param>
+            <param name="token">The cancellation token for this operation. Can be default, if the operation is not asynchronous.</param>
+            <returns>The Dds file containing the encoded image.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnEncoderExtensions.CalculateNumberOfMipLevels(BCnEncoder.Encoder.BcEncoder,SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32})">
+            <summary>
+            Calculates the number of mipmap levels that will be generated for the given input image.
+            </summary>
+            <param name="inputImage">The image to use for the calculation.</param>
+            <returns>The number of mipmap levels that will be generated for the input image.</returns>
+        </member>
+        <member name="M:BCnEncoder.ImageSharp.BCnEncoderExtensions.CalculateMipMapSize(BCnEncoder.Encoder.BcEncoder,SixLabors.ImageSharp.Image{SixLabors.ImageSharp.PixelFormats.Rgba32},System.Int32,System.Int32@,System.Int32@)">
+            <summary>
+            Calculates the size of a given mipmap level.
+            </summary>
+            <param name="inputImage">The image to use for the calculation.</param>
+            <param name="mipLevel">The mipLevel to calculate (0 is original image)</param>
+            <param name="mipWidth">The mipmap width calculated</param>
+            <param name="mipHeight">The mipmap height calculated</param>
+        </member>
+    </members>
+</doc>

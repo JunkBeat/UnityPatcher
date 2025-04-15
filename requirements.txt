@@ -1,0 +1,7 @@
+UnityPy==1.10.18
+ffmpeg-python
+astc-encoder-py>=0.1.8
+colorama
+chardet
+clr_loader
+pythonnet
