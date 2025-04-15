@@ -1,7 +1,7 @@
 <div align="center">
     <img src="https://github.com/user-attachments/assets/6b6d02b6-a967-40a0-978b-9e7a30b2a643" width="15%" alt="logo">
     <h1 align="center">UnityPatcher</h2>
-    <p>A command-line tool for patching assets in Unity files. It is based on UnityPy.</p>
+    <p>A command-line tool for patching Unity assets using UnityPy.</p>
     <a href="https://github.com/JunkBeat/UnityPatcher/releases/latest"><b>✦︎ Download latest release ✦︎</b></a>
 </div>
 
