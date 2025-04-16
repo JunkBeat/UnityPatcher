@@ -74,9 +74,15 @@ def _VideoClip_check_codecs(self: VideoClip, file: str) -> bool:
     )
 
 
+def _VideoClip_check_validity(self: VideoClip, file: str) -> bool:
+    probe = ffmpeg.probe(file)
+    codecs = {stream["codec_type"]: stream["codec_name"] for stream in probe["streams"]}
+    return codecs.get("video")
+
+
 def _VideoClip_read_raw_video(self: VideoClip, file: str):
-    if not self.check_codecs(file):
-        raise ValueError("Incorrect video or audio codec")
+    if not self.check_validity(file):
+        raise ValueError("The file does not contain a video stream.")
     return GeneralHelper.read_binary_file(file)
 
 
@@ -108,3 +114,4 @@ VideoClip.transcode_video = _VideoClip_transcode_video
 VideoClip.read_raw_video = _VideoClip_read_raw_video
 VideoClip.check_codecs = _VideoClip_check_codecs
 VideoClip.save_via_tree = _VideoClip_save_via_tree
+VideoClip.check_validity = _VideoClip_check_validity
