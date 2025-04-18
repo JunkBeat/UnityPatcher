@@ -37,7 +37,10 @@ def _VideoClip_set_video(
     if not os.path.isfile(file):
         raise FileNotFoundError(f"File not found: {file}")
 
-    probe = ffmpeg.probe(file)
+    try:
+        probe = ffmpeg.probe(file)
+    except FileNotFoundError as e:
+        raise FileNotFoundError(f"ffmpeg not found: {e}")
 
     video_stream = next(
         (stream for stream in probe["streams"] if stream["codec_type"] == "video"),
