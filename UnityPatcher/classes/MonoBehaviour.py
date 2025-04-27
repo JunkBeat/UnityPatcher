@@ -42,13 +42,14 @@ class MonoBehaviour(BaseManager):
         Args:
             dump (Union[str, dict]): Path to JSON file or dictionary.
         """
-        if isinstance(dump, dict):
-            tree = dump
-        elif isinstance(dump, str):
-            tree = decode_base64_in_tree(GeneralHelper.read_json(dump))
-        else:
+        if isinstance(dump, str):
+            dump = GeneralHelper.read_json(dump)
+        
+        if not isinstance(dump, dict):
             raise TypeError(f"Unsupported dump type: {type(dump).__name__}")
-
+        
+        tree = decode_base64_in_tree(dump)
+    
         if self.data.serialized_type and self.data.serialized_type.nodes:
             self.data.reader.save_typetree(tree)
             return
