@@ -23,7 +23,7 @@ from enums import ExportType
 # Initialize colorama
 init(autoreset=True)
 
-VERSION = "1.0.7.3"
+VERSION = "1.0.7.4"
 
 
 class ColorFormatter(logging.Formatter):

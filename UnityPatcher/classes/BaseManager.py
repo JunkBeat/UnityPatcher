@@ -278,7 +278,16 @@ class BaseManager(ABC):
 
     def __str__(self):
         script_name = self.get_script_name()
-        source = self.get_full_source_name()
+
+        try:
+            source = self.get_full_source_name()
+        except Exception as e:
+            logging.error(f"Error getting full source name: {e}")
+            try:
+                source = self.get_source_name()
+            except Exception as e:
+                logging.error(f"Error getting source name: {e}")
+                source = "Unknown"
 
         return (
             f"Name: {self.name}\n"

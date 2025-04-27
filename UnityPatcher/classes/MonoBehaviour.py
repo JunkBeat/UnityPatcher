@@ -4,6 +4,7 @@ from core.Settings import Settings
 from helpers import TypeTreeManager, GeneralHelper
 
 from .BaseManager import BaseManager
+from .BaseManager import decode_base64_in_tree
 
 
 class MonoBehaviour(BaseManager):
@@ -37,23 +38,29 @@ class MonoBehaviour(BaseManager):
     def import_dump(self, dump: Union[str, dict]):
         """
         Overridden method for importing a typetree dump.
-        dump - Path to json file or dict
+
+        Args:
+            dump (Union[str, dict]): Path to JSON file or dictionary.
         """
-        if isinstance(dump, str):
-            tree = GeneralHelper.read_json(tree)
+        if isinstance(dump, dict):
+            tree = dump
+        elif isinstance(dump, str):
+            tree = decode_base64_in_tree(GeneralHelper.read_json(dump))
+        else:
+            raise TypeError(f"Unsupported dump type: {type(dump).__name__}")
 
         if self.data.serialized_type and self.data.serialized_type.nodes:
-            self.data.reader.save_typetree(dump)
+            self.data.reader.save_typetree(tree)
             return
 
         nodes = TypeTreeManager.get_typetree(
             self.data, self.script, Settings.game_folder, get_nodes=True
         )
 
-        if nodes:
-            self.data.reader.save_typetree(dump, nodes)
-        else:
-            raise Exception("Failed to get nodes")
+        if not nodes:
+            raise RuntimeError("Failed to get nodes")
+
+        self.data.reader.save_typetree(tree, nodes)
 
     def export(self, path: str = None):
         full_name = self.name.replace("@", "-") + f" @{self.script.name}"
@@ -66,5 +73,4 @@ class MonoBehaviour(BaseManager):
         super().save_dump(dest, self.tree)
 
     def import_(self, dump_path: str):
-        tree = GeneralHelper.read_json(dump_path)
-        self.import_dump(tree)
+        self.import_dump(dump_path)
