@@ -5,3 +5,4 @@ colorama
 chardet
 clr_loader
 pythonnet
+tqdm
