@@ -42,6 +42,7 @@ pip install -r requirements.txt
 
 Finally, launch the program with:
 ```bash
+cd UnityPatcher
 python Patcher.py
 ```
 
