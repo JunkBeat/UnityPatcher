@@ -122,10 +122,12 @@ def image_to_raw(
         TF.PVRTC_RGB4,
         TF.ATC_RGB4,
     ]:
+        img = img.convert("RGB")
         enc_img = img.tobytes("raw", "RGB")
         tex_format = TF.RGB24
     # everything else defaulted to RGBA
     else:
+        img = img.convert("RGBA")
         enc_img = img.tobytes("raw", "RGBA")
         tex_format = TF.RGBA32
 
