@@ -107,7 +107,9 @@ class ResourcePacker:
 
         new_resource = EndianBinaryReader(file_data, resource_data.endian)
         self.update_resource(resource_name, new_resource)
-        self.update_typetree(source=resource_name, offset=data_offset, size=len(new_data))
+        
+        source = f"archive:/{resource_name.split(".")[0]}/{resource_name}" if self.is_bundle_parent else resource_name
+        self.update_typetree(source=source, offset=data_offset, size=len(new_data))
 
     def update_typetree(self, source: str = None, offset: int = None, size: int = None):
         if self.obj.type == ClassIDType.AudioClip:
